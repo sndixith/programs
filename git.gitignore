@@ -1,0 +1,3 @@
+# ignore ALL .log and .class files
+*.log
+*.class
