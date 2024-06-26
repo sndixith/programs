@@ -12,6 +12,15 @@ Test Case 3:
 	Input : 9
 	Output : 362880
 */
+import java.util.Scanner  ; 
 class Program1{
-    
+    public static void main(String[] args) {
+		Scanner s = new Scanner(System.in) ; 
+		int num  = s.nextInt()  ; 
+		int result  = 1 ;  // 1! 
+		for( int i = 2 ; i<= num ; i++ ){
+			result *= i  ; 
+		}
+		System.out.println(result);
+	}
 }
