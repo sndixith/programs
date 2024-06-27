@@ -1,0 +1,12 @@
+1.Write a program to find all the prime numbers between a given range .
+Constraints : User needs to enter the range (lower bound and upper bound) 
+where lower bound < upper bound and lower bound > 2 . If these conditions 
+are not satisfied then program should print Invalid range.
+
+2.Write a program to find count of prime numbers present  between a given range.
+Constraints : User needs to enter the range (lower bound and upper bound) 
+where lower bound < upper bound and lower bound > 2 . 
+If these conditions are not satisfied then program should print Invalid range.
+
+3.Write a java program to count the number of factors of a given integer number.
+
