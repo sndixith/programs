@@ -10,21 +10,17 @@ Test Case 2:
 */
 
 import java.util.Scanner  ; 
-
 public class Program2 {
     public static void main(String[] args) {
 		Scanner s = new Scanner(System.in)  ; 
 		int num  = s.nextInt() ; 
-		int count = 2  ; 
 		System.out.print(1 + ", ");
 		for ( int i = 2 ; i <= num / 2 ; i++ ){
 			if( num % i == 0 ) // if divisible by i 
 			{
 				System.out.print( i  + ", ");
-				count++  ; 
 			}
 		}// end of loop 
-		System.out.println(num);
-		System.out.println(count);
+		System.out.println(num);	
 	}
 }
