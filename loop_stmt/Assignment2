@@ -1,0 +1,16 @@
+Write a Java program to Find the sum and product of each 
+digit of the given integer number .
+Description : 
+        Input : 7645
+        Output :    
+        Sum : 22
+        Product  :  840
+
+Write a Java program to check whether the sum of the 
+digits of a given number is equal to the product of the digits 
+of the number.
+       Description : 
+              Input : 1124
+              Output :  true
+
+
