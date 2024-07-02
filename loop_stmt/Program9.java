@@ -22,6 +22,42 @@ Sum of Digits Raised to the Power of m:
 =153=153
 
  */
+import java.util.Scanner  ; 
 public class Program9 {
-    
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in)  ; 
+        // step1 : read num 
+        int num = s.nextInt() ; 
+        // step2: preserve original 
+        int original_num  = num  ; 
+        // step3 : find m (leangth of num)
+        int count = 0 ;  
+        while( num != 0 ){
+            num /= 10 ; 
+            count++  ; 
+        }
+        int m = count  ; 
+        // step4 : calculate sum 
+        num = original_num ; 
+        int sum = 0 ;  
+        while( num != 0 ){
+            // obtain d 
+            int d = num % 10  ; 
+            // calculate d^m 
+            int power = 1 ; 
+            for ( int i = 1 ; i <= m ; i++ ){
+                power = power * d ; 
+            }// end of inner for loop
+            sum = sum + power  ; 
+            // update num 
+            num /=10 ; 
+        }// end of while loop 
+        System.out.println(sum);
+        // step 5: compare sum with original num 
+        if( original_num == sum  )
+            System.out.println("it is special");
+        else 
+            System.out.println("it is not special") ;
+
+    }// end of main
 }
