@@ -1,0 +1,56 @@
+1> Write a Java program to determine whether a given integer number is a Sunny number. A number is called a sunny number if the number next to the given number is a perfect square. In other words, a number N will be a sunny number if N+1 is a perfect square.
+Example :  N=80 then N+1 will be 80+1=81, which is a perfect square of the number 9. Hence 80 is a sunny number.
+Write a Java program to determine whether a given integer number is a Tech number.A number is called a tech number if the given number has an even number of digits and the number can be divided exactly into two parts from the middle. After equally dividing the number, sum up the numbers and find the square of the sum. If we get the number itself as square, the given number is a tech number, else, not a tech number.
+Example :   number = 2025 
+                                  = 20 + 25 
+                                  = (45)2
+                                     2025 = 2025 
+	             Hence 2025 is a Tech number.
+
+2>Write a java program to find whether the given integer number in Buzz number or not. Buzz number is a number that ends with digit 7 or divisible by 7.
+Example :  42 is a Buzz number because it is divisible by 7.
+                   107 is a Buzz number because it ends with 7.
+
+
+3>Write a Java program to determine whether a given integer is a Duck number or not. A Duck number is a positive, non-zero number that contains at least one zero in it.
+Example:
+3210 is a Duck number because it contains a zero at the end of the number.
+8237 is not a Duck number because it does not contain zero in it. 
+
+
+
+
+4>  Write a Java program to determine whether a given number is a fascinating number. A number is said to be fascinating if, after multiplying it by 2 and 3 separately and concatenating the results with the original number, the resultant number contains all the digits from 1 to 9 exactly once.
+            For example, consider the number 327:
+327 × 2 = 654
+327 × 3 = 981
+Concatenating these results with the original number gives:
+          "327" + "654" + "981" = "327654981".
+This resultant number contains all the digits from 1 to 9 exactly once, making 327 a fascinating number.
+
+
+
+
+
+
+5>Write a Java program to determine whether a given positive n-digit number is a Keith number. A Keith number is a number that appears in a special sequence generated using its digits. The sequence starts with the digits of the number, and each subsequent term is the sum of the previous n terms.
+For example, to check if 742 is a Keith number:
+Separate each digit: 7, 4, 2.
+Generate the sequence by adding the last three terms:
+7, 4, 2
+7 + 4 + 2 = 13 → 7, 4, 2, 13
+13 + 2 + 4 = 19 → 7, 4, 2, 13, 19
+19 + 13 + 2 = 34 → 7, 4, 2, 13, 19, 34
+34 + 19 + 13 = 66 → 7, 4, 2, 13, 19, 34, 66
+66 + 34 + 19 = 119 → 7, 4, 2, 13, 19, 34, 66, 119
+119 + 66 + 34 = 219 → 7, 4, 2, 13, 19, 34, 66, 119, 219
+219 + 119 + 66 = 404 → 7, 4, 2, 13, 19, 34, 66, 119, 219, 404
+404 + 219 + 119 = 742 → 7, 4, 2, 13, 19, 34, 66, 119, 219, 404, 742
+Since the sequence eventually includes the original number 742, it is a Keith number.
+
+
+
+
+
+
+
