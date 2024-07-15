@@ -1,0 +1,67 @@
+Arrays
+
+1.Program to find the minimum (or maximum) element of an array.
+Test Case1:
+	Input :{1,423,6,46,34,23,13,53,4}
+	Output : 1 , 423
+
+
+
+
+2.Given an array arr[] of size N-1 with integers in the range of [1, N], the task is to find the missing number from the first N integers.
+Note: There are no duplicates in the list.
+Examples: 
+Input: arr[] = {1, 2, 4, 6, 3, 7, 8} , N = 8
+Output: 5
+
+Explanation: Here the size of the array is 8, so the range will be [1, 8]. The missing number between 1 to 8 is 5
+
+Input: arr[] = {1, 2, 3, 5}, N = 5
+Output: 4
+Explanation: Here the size of the array is 4, so the range will be [1, 5]. The missing number between 1 to 5 is 4
+
+
+3.Given an array, the task is to reverse the array/string.
+
+	Examples:
+	Input: original_array[] = {1, 2, 3} 
+	Output: array_reversed[] = {3, 2, 1}
+
+	Input: original_array[] = {4, 5, 1, 2}
+	Output: array_reversed[] = {2, 1, 5, 4}
+
+4.Given an array of integers arr[], The task is to find the index of first repeating element in it i.e. the element that occurs more than once and whose index of the first occurrence is the smallest. 
+
+	Examples: 
+
+	Input: arr[] = {10, 5, 3, 4, 3, 5, 6}
+	Output: 5 
+	Explanation: 5 is the first element that repeats
+
+	Input: arr[] = {6, 10, 5, 4, 9, 120, 4, 6, 10}
+	Output: 6 
+	Explanation: 6 is the first element that repeats
+
+5.Given an array of n elements that contains elements from 0 to n-1, with any of these numbers appearing any number of times. Find these repeating numbers in O(n) and use only constant memory space.
+
+	Note: The repeating element should be printed only once.
+
+	Example: 
+
+	Input: n=7 , array[]={1, 2, 3, 6, 3, 6, 1}
+	Output: 1, 3, 6
+	Explanation: The numbers 1 , 3 and 6 appear’s more than once in the array.
+
+		Input : n = 5 and array[] = {1, 2, 3, 4 ,3}
+	Output: 3
+	Explanation: The number 3 appears more than once in the array.
+
+6.Find the Second Largest Number in an Array.
+
+7.Calculate the sum of all elements in a given array and check whether its even or odd if even return true if not false.
+
+8.Count the Number of Even and Odd Elements in an Array.
+
+9.Find the second smallest Element in the given array.
+
+10. Given an array of integers, count the number of positive and negative numbers.
